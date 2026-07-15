@@ -6,9 +6,11 @@
 4. [Modern JavaScript Features](#modern-js)  
 5. [Error Handling](#error-handling)  
 6. [Hands-On Example](#hands-on)  
-7. [Common Mistakes](#mistakes)  
+7. [Common Mistakes](#mistakes)
+8. [Search For](#search)  
 
 ---
+
 ## 1. JSON Deep Dive
 
 • JSON stands for JavaScript Object Notation  
@@ -347,3 +349,9 @@ try {
 ```
 
 ---
+
+## 8. Search For  
+
+1. Axios Lib 
+2. callback functions and promises
+
