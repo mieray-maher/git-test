@@ -26,7 +26,7 @@
     <details>
     <summary>Answer</summary>
     
-    Answer is `"string"`
+    `"string"`
     
     Explanation: The typeof operator returns a string indicating the type of the operand. Since \"Hello, World!\" is a string, it returns \"string\".
     
@@ -40,7 +40,7 @@
     <details>
     <summary>Answer</summary>
     
-    Answer is `Using the function keyword or arrow syntax: function myFunc() {} or const myFunc = () => {}`
+    `Using the function keyword or arrow syntax: function myFunc() {} or const myFunc = () => {}`
     
     Explanation: There are several ways to create functions in JavaScript. The traditional way uses the function keyword, while ES6 introduced arrow function syntax which is more concise.
     
