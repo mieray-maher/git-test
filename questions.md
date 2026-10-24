@@ -648,16 +648,6 @@
 
     </details>
 
-26. **Question:** What is the purpose of `package.json` in Node.js?
-
-    <details>
-    <summary>Answer</summary>
-
-    `A manifest file at the project root that holds metadata, dependencies, scripts, and configuration for a Node.js project.`
-
-    Explanation: It lists the packages the project needs (dependencies and devDependencies) so `npm install` can recreate them, defines scripts such as `npm start` and `npm test`, and stores info like the project name, version, and entry point.
-
-    </details>
 
 ## Advanced Level
 
@@ -858,18 +848,7 @@
 
     </details>
 
-13. **Question:** How does the Node.js event loop handle different phases (timers, I/O, etc.)?
-
-    <details>
-    <summary>Answer</summary>
-
-    `The event loop cycles through phases in order: timers, pending callbacks, idle/prepare, poll (I/O), check, and close callbacks.`
-
-    Explanation: Timers run expired setTimeout/setInterval callbacks, the poll phase handles most I/O callbacks, and the check phase runs setImmediate callbacks. Between phases, Node.js drains process.nextTick and promise microtasks, which is why they run before the next phase starts.
-
-    </details>
-
-14. **Question:** How do you handle asynchronous errors in Node.js?
+13. **Question:** How do you handle asynchronous errors in Node.js?
 
     <details>
     <summary>Answer</summary>
@@ -898,7 +877,7 @@
 
 ### Authentication & Security
 
-15. **Question:** What is JWT?
+14. **Question:** What is JWT?
 
     <details>
     <summary>Answer</summary>
@@ -909,7 +888,7 @@
 
     </details>
 
-16. **Question:** How should we store user passwords in a database?
+15. **Question:** How should we store user passwords in a database?
 
     <details>
     <summary>Answer</summary>
@@ -920,7 +899,7 @@
 
     </details>
 
-17. **Question:** What are the security risks of storing JWTs in localStorage?
+16. **Question:** What are the security risks of storing JWTs in localStorage?
 
     <details>
     <summary>Answer</summary>
@@ -933,7 +912,7 @@
 
 ### MongoDB
 
-18. **Question:** What is a collection in MongoDB?
+17. **Question:** What is a collection in MongoDB?
 
     <details>
     <summary>Answer</summary>
@@ -944,7 +923,7 @@
 
     </details>
 
-19. **Question:** When would you use embedded documents vs references in MongoDB?
+18. **Question:** When would you use embedded documents vs references in MongoDB?
 
     <details>
     <summary>Answer</summary>
@@ -955,7 +934,7 @@
 
     </details>
 
-20. **Question:** What is the difference between a Mongoose Schema and a Model?
+19. **Question:** What is the difference between a Mongoose Schema and a Model?
 
     <details>
     <summary>Answer</summary>
@@ -966,7 +945,7 @@
 
     </details>
 
-21. **Question:** What is the difference between find() and findOne() in MongoDB?
+20. **Question:** What is the difference between find() and findOne() in MongoDB?
 
     <details>
     <summary>Answer</summary>
@@ -977,7 +956,7 @@
 
     </details>
 
-22. **Question:** What is the difference between save() and create() in Mongoose?
+21. **Question:** What is the difference between save() and create() in Mongoose?
 
     <details>
     <summary>Answer</summary>
@@ -988,36 +967,11 @@
 
     </details>
 
-23. **Question:** How do you connect a Node.js application to a MongoDB database?
 
-    <details>
-    <summary>Answer</summary>
-
-    `Using the Mongoose library (or the native MongoDB driver) and calling connect() with the connection string.`
-
-    Explanation: Keep the connection string in an environment variable rather than in the code:
-
-    ```javascript
-    const mongoose = require("mongoose");
-
-    async function connectDB() {
-      try {
-        await mongoose.connect(process.env.MONGO_URI);
-        console.log("MongoDB connected");
-      } catch (err) {
-        console.error("Connection error:", err);
-        process.exit(1);
-      }
-    }
-
-    connectDB();
-    ```
-
-    </details>
 
 ### Node.js Runtime & Architecture
 
-24. **Question:** What is the recommended folder structure for a Node.js project?
+22. **Question:** What is the recommended folder structure for a Node.js project?
 
     <details>
     <summary>Answer</summary>
@@ -1028,7 +982,7 @@
 
     </details>
 
-25. **Question:** What is a middleware in backend development?
+23. **Question:** What is a middleware in backend development?
 
     <details>
     <summary>Answer</summary>
@@ -1039,7 +993,7 @@
 
     </details>
 
-26. **Question:** What is REST in web development?
+24. **Question:** What is REST in web development?
 
     <details>
     <summary>Answer</summary>
@@ -1050,7 +1004,7 @@
 
     </details>
 
-27. **Question:** What is an environment variable in backend development?
+25. **Question:** What is an environment variable in backend development?
 
     <details>
     <summary>Answer</summary>
