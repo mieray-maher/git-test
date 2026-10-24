@@ -23,14 +23,14 @@
     ```javascript
     console.log(typeof "Hello, World!");
     ```
-<details>
-<summary>Answer</summary>
-
-Answer is `"string"`
-
-Explanation: The `typeof` operator returns a string indicating the type of the unevaluated operand.
-
-</details>
+    <details>
+    <summary>Answer</summary>
+    
+    Answer is `"string"`
+    
+    Explanation: The `typeof` operator returns a string indicating the type of the unevaluated operand.
+    
+    </details>
 
 3. **Question:** <details> How do you create a function in JavaScript?
 
