@@ -18,13 +18,21 @@
 
 ### JavaScript Basics
 
-1. **Question:** <details> What will the following code output?
+1. **Question:** What will the following code output?
+    
+    ```javascript
+    console.log(typeof "Hello, World!");
+    ```
+<details>
+<summary>Answer</summary>
 
-   ```javascript
-   console.log(typeof "Hello, World!");
-   ```
+Answer is `"string"`
 
-2. **Question:** <details> How do you create a function in JavaScript?
+Explanation: The `typeof` operator returns a string indicating the type of the unevaluated operand.
+
+</details>
+
+3. **Question:** <details> How do you create a function in JavaScript?
 
    ```javascript
    function greet(name) {
@@ -33,7 +41,7 @@
    console.log(greet("Alice"));
    ```
 
-3. **Question:** <details> What is the output of the following code?
+4. **Question:** <details> What is the output of the following code?
 
    ```javascript
    let x = 5;
@@ -41,20 +49,20 @@
    console.log(x == y);
    ```
 
-4. **Question:** <details> What will the following code output?
+5. **Question:** <details> What will the following code output?
 
    ```javascript
    console.log(5 + "5");
    ```
 
-5. **Question:** <details> How do you declare a variable in JavaScript?
+6. **Question:** <details> How do you declare a variable in JavaScript?
 
    ```javascript
    var name = "John";
    console.log(name);
    ```
 
-6. **Question:** <details> What does the following code produce?
+7. **Question:** <details> What does the following code produce?
 
    ```javascript
    let num = 10;
@@ -62,27 +70,27 @@
    console.log(num);
    ```
 
-7. **Question:** <details> What will the output be?
+8. **Question:** <details> What will the output be?
 
    ```javascript
    console.log(3 * 3 == 9);
    ```
 
-8. **Question:** <details> How do you create an array in JavaScript?
+9. **Question:** <details> How do you create an array in JavaScript?
 
    ```javascript
    let colors = ["red", "green", "blue"];
    console.log(colors[1]);
    ```
 
-9. **Question:** <details> What does the following code return?
+10. **Question:** <details> What does the following code return?
 
    ```javascript
    const greet = () => "Hello, World!";
    console.log(greet());
    ```
 
-10. **Question:** <details> What does the following code produce?
+11. **Question:** <details> What does the following code produce?
 
     ```javascript
     let num = 10;
@@ -90,7 +98,7 @@
     console.log(num++);
     ```
 
-11. **Question:** <details> What will this code output?
+12. **Question:** <details> What will this code output?
 
     ```javascript
     let x = "5";
@@ -98,9 +106,9 @@
     console.log(x * y);
     ```
 
-12. **Question:** <details> What is the difference between null and undefined?
+13. **Question:** <details> What is the difference between null and undefined?
 
-13. **Question:** <details> What is a callback function?
+14. **Question:** <details> What is a callback function?
 
 ### Beginner Backend Concepts
 
