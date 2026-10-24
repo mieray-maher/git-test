@@ -534,18 +534,7 @@
 
     </details>
 
-16. **Question:** What are database indexes and when would you use them?
-
-    <details>
-    <summary>Answer</summary>
-
-    `Data structures (usually B-trees) that speed up lookups on specific columns/fields, at the cost of extra storage and slower writes.`
-
-    Explanation: Without an index, the database scans every row to find a match. Use indexes on columns that are frequently used in WHERE, JOIN, or ORDER BY clauses (e.g., email, foreign keys), and avoid over-indexing write-heavy tables.
-
-    </details>
-
-17. **Question:** What are the main types of databases?
+16. **Question:** What are the main types of databases?
 
     <details>
     <summary>Answer</summary>
@@ -556,7 +545,7 @@
 
     </details>
 
-18. **Question:** What is the difference between SQL and NoSQL databases?
+17. **Question:** What is the difference between SQL and NoSQL databases?
 
     <details>
     <summary>Answer</summary>
@@ -569,7 +558,7 @@
 
 ### Various Questions
 
-19. **Question:** What is the difference between synchronous and asynchronous programming?
+18. **Question:** What is the difference between synchronous and asynchronous programming?
 
     <details>
     <summary>Answer</summary>
@@ -580,7 +569,7 @@
 
     </details>
 
-20. **Question:** What is the difference between authentication and authorization?
+19. **Question:** What is the difference between authentication and authorization?
 
     <details>
     <summary>Answer</summary>
@@ -591,7 +580,7 @@
 
     </details>
 
-21. **Question:** What is the purpose of caching in backend development?
+20. **Question:** What is the purpose of caching in backend development?
 
     <details>
     <summary>Answer</summary>
@@ -602,20 +591,9 @@
 
     </details>
 
-22. **Question:** How and where can we cache data?
-
-    <details>
-    <summary>Answer</summary>
-
-    `In memory inside the app, in an external store like Redis or Memcached, at the HTTP level (Cache-Control headers / browser cache), or on a CDN.`
-
-    Explanation: In-memory caching is the fastest but is lost on restart and not shared between server instances. Redis/Memcached are shared across instances and are the usual choice for database query results and sessions. HTTP caching and CDNs are best for static assets and public API responses.
-
-    </details>
-
 ### Node.js & Backend Fundamentals
 
-23. **Question:** What are HTTP requests and responses?
+21. **Question:** What are HTTP requests and responses?
 
     <details>
     <summary>Answer</summary>
@@ -626,7 +604,7 @@
 
     </details>
 
-24. **Question:** What does CRUD stand for in backend development?
+22. **Question:** What does CRUD stand for in backend development?
 
     <details>
     <summary>Answer</summary>
@@ -637,7 +615,7 @@
 
     </details>
 
-25. **Question:** What is an API?
+23. **Question:** What is an API?
 
     <details>
     <summary>Answer</summary>
