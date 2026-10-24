@@ -33,10 +33,7 @@
     </details>
 
 2. **Question:** How do you create a function in JavaScript?
-    
-    ```javascript
-    console.log(typeof "Hello, World!");
-    ```
+
     <details>
     <summary>Answer</summary>
     
