@@ -28,18 +28,23 @@
     
     Answer is `"string"`
     
-    Explanation: The `typeof` operator returns a string indicating the type of the unevaluated operand.
+    Explanation: The typeof operator returns a string indicating the type of the operand. Since \"Hello, World!\" is a string, it returns \"string\".
     
     </details>
 
-3. **Question:** <details> How do you create a function in JavaScript?
-
-   ```javascript
-   function greet(name) {
-     return "Hello, " + name;
-   }
-   console.log(greet("Alice"));
-   ```
+2. **Question:** How do you create a function in JavaScript?
+    
+    ```javascript
+    console.log(typeof "Hello, World!");
+    ```
+    <details>
+    <summary>Answer</summary>
+    
+    Answer is `Using the function keyword or arrow syntax: function myFunc() {} or const myFunc = () => {}`
+    
+    Explanation: There are several ways to create functions in JavaScript. The traditional way uses the function keyword, while ES6 introduced arrow function syntax which is more concise.
+    
+    </details>
 
 4. **Question:** <details> What is the output of the following code?
 
